@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Weather Forecast</h1>
+  </header>
+
+  <main class="container-all">
+    <div id="main-div-element">
+
+      <nav>
+        <form id="search-input">
+          <div class="loc-hug">
+            <label for="cityInput" class="location-search">Location:</label>
+            <input type="text" id="search-city-input" required="true">
+            <button type="submit" class="btn">Search</button>
+          </div>
+
+          <div class="typed-cities" id="typed-cities-id"></div>
+        </form>
+      </nav>
+
+      <p id="selected-location">
+      <h2>Selected Location Weather</h2>
+      </p>
+
+    </div>
+  </main>
+
+  <section id="forecast-placement">
+    <div class="row">
+      <h5>Your Weather Forecast:</h5>
+    </div>
+    <div id="forecast-placement-row">
+    </div>
+  </section>
+
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

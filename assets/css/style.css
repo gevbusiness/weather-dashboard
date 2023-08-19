@@ -1,0 +1,28 @@
+* {
+    margin: 40px;
+    background-color: #1a6efe;
+}
+
+header {
+    color: rgb(253, 253, 253);
+    border: white inset 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: -50px;
+    margin-right: 0%;
+}
+
+.loc-hug {
+    border: white inset 2px;
+}
+
+.location-search {
+    font-size: 30px;
+    font-weight: bold;
+    /* border: black inline 10px; */
+}
